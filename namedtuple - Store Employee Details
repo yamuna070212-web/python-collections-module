@@ -1,0 +1,9 @@
+from collections import namedtuple
+
+Employee = namedtuple("Employee", "id name salary")
+
+e = Employee(101, "Ram", 50000)
+
+print(e)
+Output
+Employee(id=101, name='Ram', salary=50000)
