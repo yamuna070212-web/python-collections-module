@@ -1,0 +1,7 @@
+from collections import Counter
+
+text = "python"
+
+print(Counter(text))
+Output
+Counter({'p':1,'y':1,'t':1,'h':1,'o':1,'n':1})
