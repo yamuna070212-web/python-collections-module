@@ -1,0 +1,13 @@
+from collections import defaultdict
+
+students = defaultdict(list)
+
+students["Ram"].append(90)
+students["Ram"].append(95)
+students["Asha"].append(88)
+
+for name, marks in students.items():
+    print(name, ":", marks)
+Output
+Ram : [90, 95]
+Asha : [88]
