@@ -1,0 +1,11 @@
+from collections import namedtuple
+
+Student = namedtuple("Student", "name age")
+
+s = Student("Ram", 20)
+
+s = s._replace(age=21)
+
+print(s)
+Output
+Student(name='Ram', age=21)
