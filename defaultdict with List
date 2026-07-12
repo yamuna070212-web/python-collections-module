@@ -1,0 +1,11 @@
+from collections import defaultdict
+
+students = defaultdict(list)
+
+students["CSE"].append("Ram")
+
+students["CSE"].append("John")
+
+print(students)
+Output
+defaultdict(<class 'list'>, {'CSE':['Ram','John']})
