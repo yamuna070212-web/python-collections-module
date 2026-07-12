@@ -1,0 +1,9 @@
+from collections import Counter
+
+sentence = "python is easy python is powerful"
+
+words = sentence.split()
+
+print(Counter(words))
+Output
+Counter({'python':2,'is':2,'easy':1,'powerful':1})
