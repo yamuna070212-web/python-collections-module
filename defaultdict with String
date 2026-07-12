@@ -1,0 +1,8 @@
+from collections import defaultdict
+
+d = defaultdict(str)
+
+print(d["name"])
+Output
+
+(Empty String)
