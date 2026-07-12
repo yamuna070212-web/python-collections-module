@@ -1,0 +1,12 @@
+from collections import OrderedDict
+
+d = OrderedDict([
+    ("A", 10),
+    ("B", 20)
+])
+
+d.popitem()
+
+print(d)
+Output
+OrderedDict([('A', 10)])
