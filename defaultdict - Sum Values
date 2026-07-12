@@ -1,0 +1,10 @@
+from collections import defaultdict
+
+marks = defaultdict(int)
+
+marks["Math"] += 90
+marks["Math"] += 10
+
+print(marks)
+Output
+defaultdict(<class 'int'>, {'Math': 100})
