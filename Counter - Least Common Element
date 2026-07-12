@@ -1,0 +1,9 @@
+from collections import Counter
+
+data = [1, 2, 2, 3, 3, 3, 4]
+
+c = Counter(data)
+
+print(c.most_common()[-1])
+Output
+(1, 1)
