@@ -1,0 +1,11 @@
+from collections import defaultdict
+
+d = defaultdict(set)
+
+d["A"].add(10)
+
+d["A"].add(20)
+
+print(d)
+Output
+defaultdict(<class 'set'>, {'A':{10,20}})
