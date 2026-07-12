@@ -1,0 +1,12 @@
+from collections import namedtuple
+
+Student = namedtuple("Student","name age")
+
+s = Student("Asha",21)
+
+print(s.name)
+
+print(s.age)
+Output
+Asha
+21
