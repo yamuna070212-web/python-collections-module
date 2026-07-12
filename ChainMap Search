@@ -1,0 +1,11 @@
+from collections import ChainMap
+
+d1 = {"A":10}
+
+d2 = {"B":20}
+
+c = ChainMap(d1,d2)
+
+print(c["B"])
+Output
+20
