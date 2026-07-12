@@ -1,0 +1,9 @@
+from collections import deque
+
+d = deque([20,30])
+
+d.appendleft(10)
+
+print(d)
+Output
+deque([10,20,30])
