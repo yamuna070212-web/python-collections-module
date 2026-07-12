@@ -1,0 +1,12 @@
+from collections import ChainMap
+
+d1 = {"A": 1}
+d2 = {"B": 2}
+d3 = {"C": 3}
+
+c = ChainMap(d1, d2, d3)
+
+print(c)
+Output
+ChainMap({'A': 1}, {'B': 2}, {'C': 3})
+
