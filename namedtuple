@@ -1,0 +1,9 @@
+from collections import namedtuple
+
+Student = namedtuple("Student",["name","age"])
+
+s = Student("Ram",20)
+
+print(s)
+Output
+Student(name='Ram', age=20)
