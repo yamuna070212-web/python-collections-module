@@ -1,0 +1,16 @@
+from collections import defaultdict
+
+students = [
+    ("CSE", "Ram"),
+    ("CSE", "John"),
+    ("ISE", "Asha")
+]
+
+groups = defaultdict(list)
+
+for dept, name in students:
+    groups[dept].append(name)
+
+print(groups)
+Output
+defaultdict(<class 'list'>, {'CSE': ['Ram', 'John'], 'ISE': ['Asha']})
