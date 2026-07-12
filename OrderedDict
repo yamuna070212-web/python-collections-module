@@ -1,0 +1,11 @@
+from collections import OrderedDict
+
+d = OrderedDict()
+
+d["A"] = 10
+
+d["B"] = 20
+
+print(d)
+Output
+OrderedDict([('A',10),('B',20)])
