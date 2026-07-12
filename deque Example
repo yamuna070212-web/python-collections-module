@@ -1,0 +1,7 @@
+from collections import deque
+
+d = deque([10,20,30])
+
+print(d)
+Output
+deque([10,20,30])
